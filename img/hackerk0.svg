@@ -1,51 +1,44 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<svg height='100px' width='100px' xmlns='http://www.w3.org/2000/svg' version='1.0' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 100 100'>
+<svg xmlns='http://www.w3.org/2000/svg' height='150' width='150' version='1.0'>
+  <rect width='100%' height='100%' fill='black' />
+<text x='45%' y='15%' fill='rgb(255,255,255,0.4)' font-size='18' font-family='Matrix Code NFI'>u</text>
+<text x='45%' y='30%' fill='rgb(77,255,77,0.2)' font-size='31' font-family='Matrix Code NFI'>;</text>
+<text x='45%' y='45%' fill='rgb(66,220,66,0.1)' font-size='22' font-family='Matrix Code NFI'>7</text>
+<text x='45%' y='60%' fill='rgb(66,220,66,1)' font-size='17' font-family='Matrix Code NFI'>4</text>
+<text x='45%' y='75%' fill='rgb(77,255,77,0.8)' font-size='19' font-family='Matrix Code NFI'>2</text>
+<text x='45%' y='90%' fill='rgb(255,255,255,0.9)' font-size='30' font-family='Matrix Code NFI'>3</text>
+<text x='45%' y='105%' fill='rgb(77,255,77,0.8)' font-size='35' font-family='Matrix Code NFI'>%</text>
+<text x='60%' y='15%' fill='rgb(77,255,77,0.4)' font-size='15' font-family='Matrix Code NFI'>\</text>
+<text x='0%' y='15%' fill='rgb(66,220,66,0.9)' font-size='20' font-family='Matrix Code NFI'>K</text>
+<text x='15%' y='15%' fill='rgb(66,220,66,0.4)' font-size='20' font-family='Matrix Code NFI'>&#x2B;</text>
+<text x='15%' y='30%' fill='rgb(255,255,255,0.2)' font-size='33' font-family='Matrix Code NFI'>&lt;</text>
+<text x='15%' y='45%' fill='rgb(255,255,255,0.5)' font-size='30' font-family='Matrix Code NFI'>v</text>
+<text x='15%' y='60%' fill='rgb(77,255,77,0.7)' font-size='19' font-family='Matrix Code NFI'>H</text>
+<text x='15%' y='75%' fill='rgb(66,220,66,0.2)' font-size='30' font-family='Matrix Code NFI'>E</text>
+<text x='15%' y='90%' fill='rgb(66,220,66,0.6)' font-size='15' font-family='Matrix Code NFI'>4</text>
+  <g filter='url(#neon)'>
+    <text x='55' y='105' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='100'>H</text>
+    <text x='87' y='105' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='100'>K</text>
+    <text x='115' y='87.5' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='50'>0</text>
+  </g>
+  <defs>
+    <style type='text/css'>
+      @font-face {
+        font-family: Matrix Code NFI;
+        src: url('../font/matrix_code_nfi.woff');
+      }
+    </style>
+  </defs>
   <filter id='neon'>
     <feFlood flood-color='#4dff4d' flood-opacity='0.5' in='SourceGraphic' />
     <feComposite operator='in' in2='SourceGraphic' />
     <feGaussianBlur stdDeviation='10' />
     <feComponentTransfer result='glow1'>
-      <feFuncA type='linear' slope='4' intercept='0' />
+      <feFuncA type='linear' slope='2' intercept='0' />
     </feComponentTransfer>
     <feMerge>
        <feMergeNode in='glow1' />
        <feMergeNode in='SourceGraphic' />
     </feMerge>
   </filter>
-  <defs>
-    <style type='text/css'>
-      @font-face {
-        font-family: Matrix Code NFI;
-        src: url('https://devlooped.com/font/matrix_code_nfi.woff');
-      }
-    </style>
-  </defs>  
-  <rect width='100%' height='100%' fill='black' />
-<text x='75%' y='15%' fill='rgb(66,220,66,0.9)' font-size='15' font-family='Matrix Code NFI'>P</text>
-<text x='75%' y='30%' fill='rgb(66,220,66,0.5)' font-size='22' font-family='Matrix Code NFI'>1</text>
-<text x='75%' y='45%' fill='rgb(66,220,66,1)' font-size='24' font-family='Matrix Code NFI'>I</text>
-<text x='75%' y='60%' fill='rgb(77,255,77,0.9)' font-size='27' font-family='Matrix Code NFI'>=</text>
-<text x='75%' y='75%' fill='rgb(255,255,255,0.4)' font-size='30' font-family='Matrix Code NFI'>$</text>
-<text x='75%' y='90%' fill='rgb(255,255,255,0.9)' font-size='19' font-family='Matrix Code NFI'>)</text>
-<text x='75%' y='105%' fill='rgb(255,255,255,0.3)' font-size='17' font-family='Matrix Code NFI'>9</text>
-<text x='15%' y='15%' fill='rgb(66,220,66,0.9)' font-size='30' font-family='Matrix Code NFI'>N</text>
-<text x='15%' y='30%' fill='rgb(77,255,77,0.2)' font-size='26' font-family='Matrix Code NFI'>~</text>
-<text x='15%' y='45%' fill='rgb(77,255,77,0.9)' font-size='22' font-family='Matrix Code NFI'>6</text>
-<text x='15%' y='60%' fill='rgb(66,220,66,0.2)' font-size='26' font-family='Matrix Code NFI'>d</text>
-<text x='15%' y='75%' fill='rgb(77,255,77,0.8)' font-size='17' font-family='Matrix Code NFI'>8</text>
-<text x='15%' y='90%' fill='rgb(66,220,66,0.3)' font-size='17' font-family='Matrix Code NFI'>2</text>
-<text x='0%' y='15%' fill='rgb(66,220,66,0.2)' font-size='25' font-family='Matrix Code NFI'>C</text>
-<text x='0%' y='30%' fill='rgb(77,255,77,0.7)' font-size='18' font-family='Matrix Code NFI'>3</text>
-<text x='0%' y='45%' fill='rgb(77,255,77,0.7)' font-size='34' font-family='Matrix Code NFI'>A</text>
-<text x='0%' y='60%' fill='rgb(77,255,77,0.7)' font-size='35' font-family='Matrix Code NFI'>o</text>
-<text x='45%' y='15%' fill='rgb(66,220,66,0.4)' font-size='33' font-family='Matrix Code NFI'>|</text>
-<text x='45%' y='30%' fill='rgb(255,255,255,0.8)' font-size='28' font-family='Matrix Code NFI'>r</text>
-<text x='45%' y='45%' fill='rgb(77,255,77,0.5)' font-size='26' font-family='Matrix Code NFI'>X</text>
-<text x='45%' y='60%' fill='rgb(255,255,255,0.1)' font-size='26' font-family='Matrix Code NFI'>!</text>
-<text x='45%' y='75%' fill='rgb(77,255,77,0.9)' font-size='18' font-family='Matrix Code NFI'>0</text>  
-  <g filter='url(#neon)'>
-    <text x='28' y='80' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='90'>H</text>
-    <text x='57' y='80' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='90'>K</text>
-    <text x='83' y='65' fill='white' text-anchor='middle' font-weight='bold' font-family='Consolas' font-size='46'>0</text>
-  </g>
 </svg>
